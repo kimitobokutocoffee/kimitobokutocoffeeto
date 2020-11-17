@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.1);
+}
+
+.logo {
+  float: left;
+  line-height: 20px;
+  display: block;
+  transition: all 1s;
+}
+
+.btn {
+  padding-right: 10px;
+  font-size: 2.0em;
+  color: black;
+}
+
+.header-right {
+  float: right;
+  line-height: 20px;
+  padding: 20px;
+  display: block;
+  transition: all 1s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.main {
+  text-align: center;
+  height: 500px;
+}
+
+.main h1 {
+  padding: 150px 0;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(34, 49, 52, 0.1);
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  font-size: larger;
+}
