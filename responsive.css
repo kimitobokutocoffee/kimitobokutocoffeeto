@@ -9,6 +9,10 @@
 }
 
 @media all and (max-width: 670px){
+  .logo {
+    width:40%
+  }
+
   .main h1{
     font-size: 24px;
   }
