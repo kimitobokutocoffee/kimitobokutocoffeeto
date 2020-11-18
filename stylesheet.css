@@ -38,7 +38,7 @@ header {
 .header-right {
   float: right;
   line-height: 20px;
-  padding: 20px;
+  margin: 20px;
   display: block;
   transition: all 1s;
 }
@@ -60,7 +60,6 @@ footer {
   width: 100%;
   text-align: center;
   background-color: rgba(34, 49, 52, 0.1);
-  position: absolute;
   bottom: 0;
 }
 
