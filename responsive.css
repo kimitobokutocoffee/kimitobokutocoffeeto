@@ -12,6 +12,10 @@
   footer h1 {
     font-size: 20px;
   }
+
+  .pic {
+    width: 50%;
+  }
 }
 
 @media all and (max-width: 670px){
@@ -48,4 +52,9 @@
   footer p {
     font-size: 14px;
   }
+
+  .pic {
+    width: 100%;
+  }
+
 }
