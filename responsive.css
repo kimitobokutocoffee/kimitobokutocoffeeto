@@ -3,19 +3,43 @@
     font-size: 32px;
   }
 
+  .planPic{
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
   footer h1 {
     font-size: 20px;
   }
 }
 
 @media all and (max-width: 670px){
+  .container{
+
+  }
+
   .logo {
     width:40%
   }
 
   .main h1{
-    font-size: 24px;
+    font-size: 30px;
   }
+
+  .main h2 {
+    font-size: 28px;
+  }
+
+  .main h3 {
+    font-size: 25px;
+  }
+
+  .planPic{
+  width: 85%;
+  height: 85%;
+  object-fit: cover;
+}
 
   footer h1 {
     font-size: 14px;
