@@ -1,134 +1,56 @@
-*{
-  box-sizing: border-box;
-}
+@media all and (max-width: 1000px){
+  .main h1{
+    font-size: 32px;
+  }
 
-ul {
-  list-style: none;
-}
-
-body {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-header {
-  width: 100%;
-  height: 65px;
-  background-color: rgba(255, 255, 255, 0.3);
-  position: fixed;
-  top: 0;
-}
-
-.logo {
-  float: left;
-  line-height: 20px;
-  display: block;
-  transition: all 1s;
-}
-
-.btn {
-  padding-right: 10px;
-  font-size: 2.0em;
-  color: black;
-}
-
-.header-right {
-  float: right;
-  line-height: 20px;
-  margin: 20px;
-  display: block;
-  transition: all 1s;
-}
-
-.btn:hover {
-  opacity: 0.8;
-}
-
-.main {
-  text-align: center;
-  height: 500px;
-}
-
-.main h1 {
-  padding: 150px 0;
-  margin-top: 0%;
-}
-
-.concept {
-  background-image: url(beans.JPG);
-  background-size: cover;
-  color: white;
-  text-align: center;
-
-}
-
-
-
-
-.planPic{
-  width: 30%;
-  height: 30%;
+  .planPic{
+  width: 50%;
+  height: 50%;
   object-fit: cover;
 }
 
-footer {
-  width: 100%;
-  text-align: center;
-  background-color: rgba(34, 49, 52, 0.1);
-  bottom: 0;
-  margin-top: 4000px;
+  footer h1 {
+    font-size: 20px;
+  }
 }
 
-footer p {
-  font-size: larger;
-  margin-bottom: 0;
+@media all and (max-width: 670px){
+  .container{
+
+  }
+
+  .logo {
+    width:40%
+  }
+
+  .main h1{
+    font-size: 30px;
+  }
+
+  .main h2 {
+    font-size: 28px;
+  }
+
+  .main h3 {
+    font-size: 25px;
+  }
+
+  .planPic{
+  width: 85%;
+  height: 85%;
+  object-fit: cover;
 }
 
-/*----------コピペ----------------*/
+  footer h1 {
+    font-size: 14px;
+  }
 
-.box17{
-    margin:2em 0;
-    position: relative;
-    padding: 0.5em 1.5em;
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;
-}
-.box17:before, .box17:after{
-    content: '';
-    position: absolute;
-    top: -10px;
-    width: 2px;
-    height: -webkit-calc(100% + 20px);
-    height: calc(100% + 20px);
-    background-color: black;
-}
-.box17:before {left: 10px;}
-.box17:after {right: 10px;}
-.box17 p {
-    margin: 0;
-    padding: 0;
+  footer p {
+    font-size: 14px;
+  }
 }
 
-.simple_square_btn5 {
-	display: block;
-	position: relative;
-  padding: 0.8em;
-  text-align: center;
-	text-decoration: none;
-	color: #fff;
-  background: #795548;
-}
-.simple_square_btn5:hover {
-	 opacity:0.8;
-	 cursor: pointer;
-	 text-decoration: none;
+
+.pic {
+  width:100%;
 }
