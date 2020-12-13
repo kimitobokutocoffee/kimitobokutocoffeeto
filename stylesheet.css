@@ -139,11 +139,25 @@ footer p {
   padding: 0.8em;
   text-align: center;
 	text-decoration: none;
-	color: #fff;
-  background: #795548;
+	color: white;
+  background: #76543B;
 }
 .simple_square_btn5:hover {
-	 opacity:0.8;
+	 opacity:0.5;
 	 cursor: pointer;
 	 text-decoration: none;
+}
+
+
+
+
+.plan li {
+  display: block;
+  background-color: #76543B;
+  color: white;
+  font-size: 21px;
+  width: 360px;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 5px;
 }
